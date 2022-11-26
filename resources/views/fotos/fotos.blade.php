@@ -35,34 +35,34 @@
                     <label for="staticEmail2">Registrar viaje</label>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Destino</label>
-                        <input id="placeholder" type="text" class="form-control" name="destino"
+                        <input style="font-size: 1em;" id="placeholder" type="text" class="form-control" name="destino"
                             placeholder="Ingrese destino de viaje">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Precio</label>
-                        <input id="placeholder" type="number" class="form-control" name="precio"
+                        <input style="font-size: 1em;" id="placeholder" type="number" class="form-control" name="precio"
                             placeholder="Precio del viaje">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Cantidad de viajeros</label>
-                        <input id="placeholder" type="number" class="form-control" name="persona"
+                        <input style="font-size: 1em;" id="placeholder" type="number" class="form-control" name="persona"
                             placeholder="Numero de aventureros">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Dias de estancia</label>
-                        <input id="placeholder" type="text" class="form-control" name="dias"
+                        <input style="font-size: 1em;" id="placeholder" type="text" class="form-control" name="dias"
                             placeholder="Ingrese los dias">
                     </div>
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Descripcion</label>
-                        <input id="placeholder" type="text" class="form-control" name="descripcion"
+                        <input style="font-size: 1em;" id="placeholder" type="text" class="form-control" name="descripcion"
                             placeholder="Agregue una descripcion">
                     </div>
                     <div class="col-auto">
-                        <input id="placeholder" class="form-control" type="file" name="foto">
+                        <input style="font-size: 1em;" id="placeholder" class="form-control" type="file" name="foto">
                     </div>
                     <div class="col-auto">
-                        <button type="submit" class="btn btn-primary mb-3">Subir</button>
+                        <button style="font-size: 1em;" type="submit" class="btn btn-primary mb-3">Subir</button>
                     </div>
                 </form>
                 <br>

@@ -18,7 +18,6 @@
   
 
 </head>
-
 <body style="background-color:">
   <div id="app" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
     <nav class="navbar navbar-expand-lg bg-light">
