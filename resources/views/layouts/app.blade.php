@@ -19,21 +19,21 @@
 
 </head>
 
-<body>
-  <div id="app">
+<body style="background-color:">
+  <div id="app" style="font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">{{ config('app.name', 'Laravel') }}</a>
+        <a style="font-size: 30px;" class="navbar-brand" href="#">{{ config('app.name', 'Laravel') }}</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="font-size: 30px;">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Inicio</a>
+              <a class="nav-link active" aria-current="page" href="{{ route('home') }}">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="{{ route('fotos') }}">Mis Fotos</a>
+              <a class="nav-link" href="{{ route('fotos') }}">Nuevo Viaje</a>
             </li>
           </ul>
           <ul class="navbar-nav ms-auto">

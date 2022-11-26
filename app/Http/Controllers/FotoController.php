@@ -34,6 +34,10 @@ class FotoController extends Controller
             Storage::disk('fotos')->put('/' . $fileName, file_get_contents($image));
             $foto = new Foto;
             $foto->user_id = $id;
+            $foto->destino = $request->destino;
+            $foto->precio = $request->precio;
+            $foto->persona = $request->persona;
+            $foto->dias = $request->dias;
             $foto->descripcion = $request->descripcion;
             $foto->estado = 1;
             $foto->ruta = $fileName;

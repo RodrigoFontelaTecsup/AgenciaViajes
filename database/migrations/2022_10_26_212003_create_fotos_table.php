@@ -17,6 +17,10 @@ return new class extends Migration
             $table->id();
             $table->string('ruta');
             $table->integer('estado');
+            $table->string('destino');
+            $table->integer('precio');
+            $table->integer('persona');
+            $table->string('dias');
             $table->string('descripcion');
             $table->unsignedBigInteger('user_id');
             $table->foreign('user_id')->references('id')->on('users');
